@@ -1,0 +1,1020 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Milos Filipovic</title>
+    <!--
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!--
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!--
+    - #MAIN
+  -->
+
+    <main>
+      <!--
+      - #SIDEBAR
+    -->
+
+      <aside class="sidebar" data-sidebar>
+        <div class="sidebar-info">
+          <figure class="avatar-box">
+            <img
+              src="./assets/images/my-avatar.jpg"
+              alt="Milos Filipovic"
+              width="80"
+            />
+          </figure>
+
+          <div class="info-content">
+            <h1 class="name" title="Milos Filipovic">Milos Filipovic</h1>
+
+            <p class="title">Software Engineer</p>
+          </div>
+
+          <button class="info_more-btn" data-sidebar-btn>
+            <span>Show Contacts</span>
+
+            <ion-icon name="chevron-down"></ion-icon>
+          </button>
+        </div>
+
+        <div class="sidebar-info_more">
+          <div class="separator"></div>
+
+          <ul class="contacts-list">
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Email</p>
+
+                <a
+                  href="mailto:milosfilopovic0311@example.com"
+                  class="contact-link"
+                  title="milosfilopovic0311@gmail.com"
+                  >milosfilopovic0311@gmail.com</a
+                >
+              </div>
+            </li>
+
+            <!-- <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="phone-portrait-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Phone</p>
+
+                <a href="tel:+12133522795" class="contact-link"
+                  >+1 (213) 352-2795</a
+                >
+              </div>
+            </li> -->
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="calendar-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Birthday</p>
+
+                <time datetime="1994-03-11">March 11, 1994</time>
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Location</p>
+                <address>Belgrade, Serbia</address>
+              </div>
+            </li>
+          </ul>
+
+          <div class="separator"></div>
+          <!-- 
+          <ul class="social-list">
+            <li class="social-item">
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a href="#" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+          </ul> -->
+        </div>
+      </aside>
+
+      <!--
+      - #main-content
+    -->
+
+      <div class="main-content">
+        <!--
+        - #NAVBAR
+      -->
+
+        <nav class="navbar">
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <button class="navbar-link active" data-nav-link>About</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Resume</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Portfolio</button>
+            </li>
+
+            <li class="navbar-item">
+              <a href="./assets/MilosFilipovic.pdf" class="navbar-link" target="_blank">Download</a>
+            </li>
+<!-- 
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Contact</button>
+            </li> -->
+          </ul>
+        </nav>
+
+        <!--
+        - #ABOUT
+      -->
+
+        <article class="about active" data-page="about">
+          <header>
+            <h2 class="h2 article-title">About me</h2>
+          </header>
+
+          <section class="about-text">
+            <p>
+              Versatile software engineer skilled in C/C++, kernel optimization, and full-stack development with expertise in Node.js, Express, and MongoDB. Proven success in system migrations, real-time data processing optimization, and implementing secure solutions. Experienced in leading cross-functional teams, integrating advanced technologies like machine learning, and optimizing systems for enhanced efficiency.
+            </p>
+          </section>
+
+          <!--
+          - service
+        -->
+          <section class="service">
+            <h3 class="h3 service-title">What i'm doing</h3>
+            <ul class="service-list">
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img src="./assets/images/icons/game.png" alt="game icon" width="40">
+                </div>
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Game Development</h4>
+                  <p class="service-item-text">
+                    Professional development of 3D games in UnrealEngine.
+                  </p>
+                </div>
+              </li>
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img src="./assets/images/icons/windows.png" alt="windows app icon" width="40">
+                </div>
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Windows apps</h4>
+                  <p class="service-item-text">
+                    I make high-quality Windows apps using C/C++ and QT.
+                  </p>
+                </div>
+              </li>
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img src="./assets/images/icons/reverse.jpg" alt="windows app icon" width="40">
+                </div>
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Reverse Engineering</h4>
+                  <p class="service-item-text">
+                    Windows application and device firmware are available.
+                  </p>
+                </div>
+              </li>
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img src="./assets/images/icons/ai.png" alt="AI icon" width="40">
+                </div>
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">AI Development</h4>
+                  <p class="service-item-text">
+                    High-quality AI development in Python.
+                  </p>
+                </div>
+              </li>
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img src="./assets/images/icons/iOS.png" alt="mobile app icon" width="40">
+                </div>
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Mobile apps</h4>
+                  <p class="service-item-text">
+                    Professional development of applications for iOS and Android.
+                  </p>
+                </div>
+              </li>
+              
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img src="./assets/images/icons/web.png" alt="Web development icon" width="40">
+                </div>
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Web development</h4>
+                  <p class="service-item-text">
+                    High-quality development of sites at the professional level.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </section>
+
+        </article>
+
+        <!--
+        - #RESUME
+      -->
+
+        <article class="resume" data-page="resume">
+          <header>
+            <h2 class="h2 article-title">Resume</h2>
+          </header>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+              <h3 class="h3">Education</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">University of Novi Sad</h4>
+                <span>06/2014 — 08/2018</span>
+                <p class="timeline-text">Bachelor's in Computer Engineering</p>
+              </li>
+            </ol>
+          </section>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+              <h3 class="h3">Experience</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Senior Full Stack Developer
+                </h4>
+                <span>02/2022 - 11/2023</span>
+                <p class="timeline-text">
+                  <ul>
+                    <li>
+                      Architected a scalable backend usingNode.js, Express, and MongoDB, achieving 99.9% availability.
+                    </li>
+                    <li>
+                      Led Jira integration for project management, improving collaboration efficiency by 20%.
+                    </li>
+                    <li>
+                      Developed an AI-driven recommendation engine in Python and TensorFlow, boosting user engagement by 20%.
+                    </li>
+                    <li>
+                      Orchestrated microservices architecture utilizing Docker and Kubernetes, elevating system modularity.
+                    </li>
+                    <li>
+                      Introduced automated deployment strategies with GitLab CI/CD, reducing manual errors by 40%.
+                    </li>
+                    <li>
+                      Conducted performance tuning using New Relic, optimizing system response times by 15%.
+                    </li>
+                  </ul>
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Senior Software Engineer</h4>
+                <span>03/2020 - 12/2021</span>
+                <p class="timeline-text">
+                  <ul>
+                    <li>
+                      Spearheaded the end-to-end development and optimization of device firmware, resulting in a 15% improvement in system performance and a 20% reduction in boot time.
+                    </li>
+                    <li>
+                      Applied advanced reverse engineering techniques to analyze and improve existing systems, leading to a 30% reduction in software vulnerabilities and enhancing overall system security.
+                    </li>
+                    <li>
+                      Led the design and implementation of Windows drivers, ensuring seamless integration with hardware components and contributing to a 25% improvement in system stability, measured by a decrease in system crashes.
+                    </li>
+                    <li>
+                      Elevated the network stack through in-depth analysis and enhancements, resolving complex network issues and achieving a 20% increase in data throughput, validated through network performance metrics.
+                    </li>
+                    <li>
+                      Collaborated across teams to integrate firmware, drivers, and network components, resulting in a 20% acceleration of project timelines and a 25% decrease in post-release bug reports.
+                    </li>
+                    <li>
+                      Designed and implemented custom network protocols, addressing specific project requirements and achieving a 25% reduction in data transfer latency, validated through latency measurement tools.
+                    </li>
+                  </ul>
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Junior Full Stack Developer</h4>
+                <span>01/2019 - 12/2020</span>
+                <p class="timeline-text">
+                  <ul>
+                    <li>
+                      Led migration of a legacy PHP application to a modern Node.js stack, boosting response times by 30%.
+                    </li>
+                    <li>
+                      Automated testing using Python and PyTest, reducing testing time by 30% and improving code quality.
+                    </li>
+                    <li>
+                      Integrated AWS Lambda for serverless computing and Amazon S3 for scalable storage, reducing operational costs by 25%.
+                    </li>
+                    <li>
+                      Spearheaded the implementation of an event-driven architecture with Apache Kafka, achieving a 25% improvement in real-time data processing efficiency.
+                    </li>
+                    <li>
+                      Pioneered the adoption of GraphQL for API communication, resulting in a 20% increase in communication efficiency and flexibility.
+                    </li>
+                    <li>
+                      Enforced end-to-end encryption through OpenSSL, fortifying data security with a 30% decrease in potential vulnerabilities.
+                    </li>
+                  </ul>
+                </p>
+              </li>
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Software Development Intern</h4>
+                <span>09/2017 - 06/2018</span>
+                <p class="timeline-text">
+                  <ul>
+                    <li>
+                      Collaborated on integrating a machine learning algorithm into an Unreal Engine project using C++ and Blueprint, optimizing character movement.
+                    </li>
+                    <li>
+                      Developed a real-time data processing module in C++ with STL and Boost, improving processing efficiency by 15%.
+                    </li>
+                    <li>
+                      Established an asynchronous Node.js server with Express, diminishing data exchange time by 20%.
+                    </li>
+                    <li>
+                      Integrated continuous integration with Travis CI, reducing build failures by 30%.
+                    </li>
+                    <li>
+                      Enhanced system security by implementing user authentication with OAuth 2.0.
+                    </li>
+                    <li>
+                      Deployed a caching mechanism leveraging Redis, leading to a 25% reduction in database queries.
+                    </li>
+                  </ul>
+                </p>
+              </li>
+            </ol>
+          </section>
+           <section class="skill">
+            <h3 class="h3 skills-title">skills</h3>
+            <ul class="skills-list content-card">
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <img
+                    class="symbol-icon"
+                    src="./assets/images/icons/c++.png"
+                  />
+                  <h5 class="h5">C/C++</h5>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 100%"></div>
+                </div>
+              </li>
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <img
+                    class="symbol-icon"
+                    src="./assets/images/icons/assembly.png"
+                  />
+                  <h5 class="h5">Assemble</h5>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 95%"></div>
+                </div>
+              </li>
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <img
+                    class="symbol-icon"
+                    src="./assets/images/icons/unreal.png"
+                  />
+                  <h5 class="h5">Unreal Engine</h5>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 100%"></div>
+                </div>
+              </li>
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <img
+                    class="symbol-icon"
+                    src="./assets/images/icons/python.png"
+                  />
+                  <h5 class="h5">Python</h5>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 90%"></div>
+                </div>
+              </li>
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <img
+                    class="symbol-icon"
+                    src="./assets/images/icons/javascript.png"
+                  />
+                  <h5 class="h5">JavaScript</h5>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 95%"></div>
+                </div>
+              </li>
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <img
+                    class="symbol-icon"
+                    src="./assets/images/icons/php.png"
+                  />
+                  <h5 class="h5">PHP</h5>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 85%"></div>
+                </div>
+              </li>
+               <li class="skills-item">
+                <div class="title-wrapper">
+                  <img
+                    class="symbol-icon"
+                    src="./assets/images/icons/swift.png"
+                  />
+                  <h5 class="h5">Swift</h5>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 95%"></div>
+                </div>
+              </li>
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <img
+                    class="symbol-icon"
+                    src="./assets/images/icons/react.png"
+                  />
+                  <h5 class="h5">React Native</h5>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 90%"></div>
+                </div>
+              </li>
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <img
+                    class="symbol-icon"
+                    src="./assets/images/icons/asp.nt.png"
+                  />
+                  <h5 class="h5">ASP.NET</h5>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 85%"></div>
+                </div>
+              </li>
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <img class="symbol-icon" src="./assets/images/icons/go.png" />
+                  <h5 class="h5">Go</h5>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 80%"></div>
+                </div>
+              </li>
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <img
+                    class="symbol-icon"
+                    src="./assets/images/icons/java.png"
+                  />
+                  <h5 class="h5">Java</h5>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 65%"></div>
+                </div>
+              </li>
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <img
+                    class="symbol-icon"
+                    src="./assets/images/icons/laravel.png"
+                  />
+                  <h5 class="h5">Laravel</h5>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 95%"></div>
+                </div>
+              </li>
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <img
+                    class="symbol-icon"
+                    src="./assets/images/icons/node.png"
+                  />
+                  <h5 class="h5">Node.js</h5>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 80%"></div>
+                </div>
+              </li>
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <img
+                    class="symbol-icon"
+                    src="./assets/images/icons/web3.png"
+                  />
+                  <h5 class="h5">Web3.js</h5>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 60%"></div>
+                </div>
+              </li>
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <img
+                    class="symbol-icon"
+                    src="./assets/images/icons/mongo.png"
+                  />
+                  <h5 class="h5">MongoDB</h5>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 95%"></div>
+                </div>
+              </li>
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <img
+                    class="symbol-icon"
+                    src="./assets/images/icons/mysql.png"
+                  />
+                  <h5 class="h5">MySQL</h5>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 100%"></div>
+                </div>
+              </li>
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <img
+                    class="symbol-icon"
+                    src="./assets/images/icons/postgre.png"
+                  />
+                  <h5 class="h5">Postgre</h5>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 80%"></div>
+                </div>
+              </li>
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <img
+                    class="symbol-icon"
+                    src="./assets/images/icons/windows.png"
+                  />
+                  <h5 class="h5">Windows</h5>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 100%"></div>
+                </div>
+              </li>
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <img
+                    class="symbol-icon"
+                    src="./assets/images/icons/linux.png"
+                  />
+                  <h5 class="h5">Linux</h5>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 100%"></div>
+                </div>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!--
+        - #PORTFOLIO
+      -->
+
+        <article class="portfolio" data-page="portfolio">
+          <header>
+            <h2 class="h2 article-title">Portfolio</h2>
+          </header>
+
+          <section class="projects">
+            <ul class="filter-list hidden">
+              <li class="filter-item">
+                <button class="active" data-filter-btn>All</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Web design</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Applications</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Web development</button>
+              </li>
+            </ul>
+
+            <div class="filter-select-box">
+              <button class="filter-select" data-select>
+                <div class="select-value" data-selecct-value>
+                  Select category
+                </div>
+
+                <div class="select-icon">
+                  <ion-icon name="chevron-down"></ion-icon>
+                </div>
+              </button>
+
+              <ul class="select-list">
+                <li class="select-item">
+                  <button data-select-item>All</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Web design</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Applications</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Web development</button>
+                </li>
+              </ul>
+            </div>
+
+            <ul class="project-list">
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a href="javascript:;">
+                  <figure class="project-img">
+                    <img
+                      src="./assets/images/products/stelo.png"
+                      alt="finance"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">CMB</h3>
+                  <p class="project-category">ASP.NET application</p>
+                </a>
+              </li>
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a href="javascript:;">
+                  <figure class="project-img">
+                    <img
+                      src="./assets/images/products/yolo7.png"
+                      alt="finance"
+                      loading="lazy"
+                    />
+                  </figure>
+                  <h3 class="project-title">SSD</h3>
+                  <p class="project-category">Python application</p>
+                </a>
+              </li>
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a href="javascript:;">
+                  <figure class="project-img">
+                    <img
+                      src="./assets/images/products/hrn.png"
+                      alt="finance"
+                      loading="lazy"
+                    />
+                  </figure>
+                  <h3 class="project-title">HRN</h3>
+                  <p class="project-category">iOS application</p>
+                </a>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!--
+        - #BLOG
+      -->
+
+        <article class="blog" data-page="blog">
+          <header>
+            <h2 class="h2 article-title">Blog</h2>
+          </header>
+
+          <section class="blog-posts">
+            <ul class="blog-posts-list">
+              <li class="blog-post-item">
+                <a href="#">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/blog-1.jpg"
+                      alt="Design conferences in 2022"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Design</p>
+                      <span class="dot"></span>
+                      <time datetime="2022-02-23">Fab 23, 2022</time>
+                    </div>
+                    <h3 class="h3 blog-item-title">
+                      Design conferences in 2022
+                    </h3>
+
+                    <p class="blog-text">
+                      Veritatis et quasi architecto beatae vitae dicta sunt,
+                      explicabo.
+                    </p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a href="#">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/blog-2.jpg"
+                      alt="Best fonts every designer"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Design</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2022-02-23">Fab 23, 2022</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">
+                      Best fonts every designer
+                    </h3>
+
+                    <p class="blog-text">
+                      Sed ut perspiciatis, nam libero tempore, cum soluta nobis
+                      est eligendi.
+                    </p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a href="#">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/blog-3.jpg"
+                      alt="Design digest #80"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Design</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2022-02-23">Fab 23, 2022</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">Design digest #80</h3>
+
+                    <p class="blog-text">
+                      Excepteur sint occaecat cupidatat no proident, quis
+                      nostrum exercitationem ullam corporis suscipit.
+                    </p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a href="#">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/blog-4.jpg"
+                      alt="UI interactions of the week"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Design</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2022-02-23">Fab 23, 2022</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">
+                      UI interactions of the week
+                    </h3>
+
+                    <p class="blog-text">
+                      Enim ad minim veniam, consectetur adipiscing elit, quis
+                      nostrud exercitation ullamco laboris nisi.
+                    </p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a href="#">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/blog-5.jpg"
+                      alt="The forgotten art of spacing"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Design</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2022-02-23">Fab 23, 2022</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">
+                      The forgotten art of spacing
+                    </h3>
+
+                    <p class="blog-text">
+                      Maxime placeat, sed do eiusmod tempor incididunt ut labore
+                      et dolore magna aliqua.
+                    </p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a href="#">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/blog-6.jpg"
+                      alt="Design digest #79"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Design</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2022-02-23">Fab 23, 2022</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">Design digest #79</h3>
+
+                    <p class="blog-text">
+                      Optio cumque nihil impedit uo minus quod maxime placeat,
+                      velit esse cillum.
+                    </p>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!--
+        - #CONTACT
+      -->
+
+        <article class="contact" data-page="contact">
+          <header>
+            <h2 class="h2 article-title">Contact</h2>
+          </header>
+          
+
+          <section class="contact-form">
+            <h3 class="h3 form-title">Contact Form</h3>
+
+            <form action="#" class="form" data-form>
+              <div class="input-wrapper">
+                <input
+                  type="text"
+                  name="fullname"
+                  class="form-input"
+                  placeholder="Full name"
+                  required
+                  data-form-input
+                />
+
+                <input
+                  type="email"
+                  name="email"
+                  class="form-input"
+                  placeholder="Email address"
+                  required
+                  data-form-input
+                />
+              </div>
+
+              <textarea
+                name="message"
+                class="form-input"
+                placeholder="Your Message"
+                required
+                data-form-input
+              ></textarea>
+
+              <button class="form-btn" type="submit" disabled data-form-btn>
+                <ion-icon name="paper-plane"></ion-icon>
+                <span>Send Message</span>
+              </button>
+            </form>
+          </section>
+        </article>
+      </div>
+    </main>
+
+    <!--
+    - custom js link
+  -->
+    <script src="./assets/js/script.js"></script>
+
+    <!--
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
