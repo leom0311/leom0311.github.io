@@ -2053,3 +2053,7 @@ textarea.form-input::-webkit-resizer {
 .filter-list {
   display: none;
 }
+
+.hidden {
+  display: none;
+}
