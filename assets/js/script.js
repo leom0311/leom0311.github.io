@@ -21,13 +21,11 @@ const modalImg = document.querySelector("[data-modal-img]");
 const modalTitle = document.querySelector("[data-modal-title]");
 const modalText = document.querySelector("[data-modal-text]");
 
-// modal toggle function
 const testimonialsModalFunc = function () {
   modalContainer.classList.toggle("active");
   overlay.classList.toggle("active");
 };
 
-// add click event to all modal items
 for (let i = 0; i < testimonialsItem.length; i++) {
   testimonialsItem[i].addEventListener("click", function () {
     modalImg.src = this.querySelector("[data-testimonials-avatar]").src;
@@ -42,10 +40,6 @@ for (let i = 0; i < testimonialsItem.length; i++) {
     testimonialsModalFunc();
   });
 }
-
-// add click event to modal close button
-// modalCloseBtn.addEventListener("click", testimonialsModalFunc);
-// overlay.addEventListener("click", testimonialsModalFunc);
 
 // custom select variables
 const select = document.querySelector("[data-select]");
